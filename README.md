@@ -27,6 +27,14 @@ tell them apart even with red-green colorblindness.
 
 ![git diff in Elysian Matte](screenshots/git-diff.png)
 
+### Background switcher
+
+The theme comes with 9 wallpapers. Press `Super + Ctrl + Space` (Omarchy's
+default background switcher shortcut) to browse them, or run
+`omarchy theme bg next` to cycle.
+
+![Background switcher](screenshots/backgrounds.jpg)
+
 ## Installation
 
 ```bash
