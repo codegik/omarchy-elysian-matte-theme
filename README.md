@@ -18,6 +18,15 @@ colorblind too, it might work for you.
 
 ![Preview](preview.png)
 
+## Screenshots
+
+### git diff
+
+Removed lines are red and added lines are amber instead of green, so you can
+tell them apart even with red-green colorblindness.
+
+![git diff in Elysian Matte](screenshots/git-diff.png)
+
 ## Installation
 
 ```bash
