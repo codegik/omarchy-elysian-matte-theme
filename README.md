@@ -1,25 +1,32 @@
 # Omarchy Elysian Matte Theme
 
-[Elysian](https://github.com/bjarneo/omarchy-elysian-theme) with the softer
-[Matte Black](https://github.com/basecamp/omarchy) palette: `#bebebe` text on a
-`#121212` background in terminals and apps, keeping Elysian's green accent,
-btop theme, icons and forest wallpapers.
+[Elysian](https://github.com/bjarneo/omarchy-elysian-theme), untouched, except
+for the terminals: Alacritty, Foot, Kitty and Ghostty use the softer
+[Matte Black](https://github.com/basecamp/omarchy) colors (`#bebebe` text on
+`#121212`).
 
 ![Preview](preview.png)
 
 ## Installation
 
 ```bash
-omarchy theme install https://github.com/codegik/omarchy-elysian-matte-theme
+curl -fsSL https://raw.githubusercontent.com/codegik/omarchy-elysian-matte-theme/main/install.sh | bash
 ```
 
-Or from the menu: Style > Theme > Install, then paste the URL.
+This clones the repo to `~/.local/share/omarchy-elysian-matte-theme`, links it
+as `~/.config/omarchy/themes/elysian-matte` and applies it. Run it again to update.
 
-## How it works
+Why not `omarchy theme install <url>`? For themes cloned from a repo, Omarchy
+drops `neovim.lua` and the terminal configs and regenerates them from
+`colors.toml`, so you'd get plain Elysian. A theme linked from your own clone
+keeps every file.
 
-All colors live in `colors.toml`. Omarchy generates the terminal (Alacritty,
-Foot, Kitty, Ghostty), Neovim, Hyprland, bar and app configs from it, so the
-terminal never gets Elysian's bright text.
+## Files
+
+| File | Source |
+|------|--------|
+| `colors.toml`, `neovim.lua`, `btop.theme`, `icons.theme`, `backgrounds/` | Elysian, unchanged |
+| `alacritty.toml`, `foot.ini`, `kitty.conf`, `ghostty.conf` | Generated from Matte Black's palette |
 
 ## Credits
 
