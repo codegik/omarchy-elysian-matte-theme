@@ -5,6 +5,17 @@ for the terminals: Alacritty, Foot, Kitty and Ghostty use the softer
 [Matte Black](https://github.com/basecamp/omarchy) colors (`#bebebe` text on
 `#121212`).
 
+## Why this theme
+
+I'm colorblind, and most themes make me squint: bright text on pure black, and
+syntax colors that blur together. Elysian's look is beautiful, but its terminal
+text was too harsh for me.
+
+Matte Black's terminal palette fixes that for me. The soft gray text (`#bebebe`)
+on a dark gray background (`#121212`) is easy on the eyes, and its reds,
+oranges and yellows are different enough that I can tell them apart. If you're
+colorblind too, it might work for you.
+
 ![Preview](preview.png)
 
 ## Installation
